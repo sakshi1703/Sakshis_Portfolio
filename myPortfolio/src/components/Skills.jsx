@@ -1,24 +1,33 @@
-import React from 'react';
+import React from "react";
+import { Icon } from "@iconify/react";
+import "./Skills.css"
 
-function Skills() {
+const skills = [
+  { name: "HTML", icon: "vscode-icons:file-type-html" },
+  { name: "CSS", icon: "vscode-icons:file-type-css" },
+  { name: "JavaScript", icon: "logos:javascript" },
+  { name: "React.JS", icon: "logos:react" },
+  { name: "Bootstrap", icon: "logos:bootstrap" },
+  { name: "Data Structures & Algorithms", icon: "tabler:math-function" },
+  { name: "Next.js", icon: "logos:nextjs" },
+  { name: "MongoDB", icon: "logos:mongodb" },
+  { name: "MySQL", icon: "logos:mysql" },
+  { name: "Chakra UI", icon: "simple-icons:chakraui" },
+
+
+];
+
+const Skills = () => {
   return (
-    <section id="skills">
-      <div className="content">
-        <div className="title"><span>My Skills</span></div>
-        <div className="skill-cards">
-          <div className="skills-card">
-            <img src="..." alt="HTML" className="skills-card-img" />
-            <h4 className="skills-card-name">HTML</h4>
-          </div>
-          <div className="skills-card">
-            <img src="..." alt="CSS" className="skills-card-img" />
-            <h4 className="skills-card-name">CSS</h4>
-          </div>
-          {/* Add other skills similarly */}
+    <div className="skills-container">
+      {skills.map((skill, index) => (
+        <div key={index} className="skills-card">
+          <Icon icon={skill.icon} width="100px" height="100px" />
+          <h4 className="skills-card-name">{skill.name}</h4>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
   );
-}
+};
 
 export default Skills;

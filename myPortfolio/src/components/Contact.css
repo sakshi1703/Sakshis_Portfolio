@@ -1,0 +1,15 @@
+.contact-links {
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    align-items: center;
+    width: 100%;
+    margin-top: 20px; /* Adds some spacing from the previous section */
+  }
+  
+  .contact-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; /* Adds spacing between the icons */
+  }
+  
