@@ -27,7 +27,7 @@ function Navbar() {
           <li><a href="#projects" className="nav-link projects">Projects</a></li>
           <li><a href="#contact" className="nav-link contact">Contact</a></li>
           <li>
-            <a id="resume-button-1" href="/Sakshi_resume_FE.pdf" target="_blank" download>
+            <a id="resume-button-1" href="/sakshi_resume_FE.pdf" target="_blank" download>
               Resume
             </a>
           </li>

@@ -14,7 +14,7 @@ function About() {
             <div className="topic">Developing Is My Passion</div>
             <p>Ambitious Full Stack developer with a knack for crafting innovative solutions. Proficient in React.js, MongoDB, Express.js, and JavaScript. Proven ability in executing solo and collaborative projects. Eager to embrace new technologies and contribute to dynamic development environments, demonstrating adaptability and a commitment to excellence.</p>
             <div className="button">
-              <a id="resume-button-2" href="/Sakshi_resume_FE.pdf" target="_blank" download>
+              <a id="resume-button-2" href="/sakshi_resume_FE.pdf" target="_blank" download>
                 Download CV
               </a>
             </div>
